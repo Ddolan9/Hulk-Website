@@ -1,0 +1,132 @@
+header {
+    background-color: rgb(50, 50, 50) ;
+    padding: 0 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header>p{
+    display: flex;
+    padding: 0 78em;
+}
+
+img {
+    height: 230px;
+    padding: 0 700px;
+    width: 230px;
+}
+
+ul{
+    display: flex;
+    padding: 0 150%;
+}
+
+li {
+    padding: 0 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    color: white;
+    background-color: rgb(34, 33, 33);
+}
+
+.intro-text{
+    padding: 50px;
+    color: #1AD9CD;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.intro-outer{
+    padding: 80px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    width: 50%;
+}
+
+
+.right{
+    width: 50%;
+}
+
+.second-intro{
+    color: rgb(149, 149, 149);
+    padding: 0px 50px;
+}
+
+
+li>a {
+    text-decoration: none;
+    color: rgb(222, 222 , 222)  ;
+}
+
+
+.gmail-link>a {
+    position: absolute;
+    text-decoration: none;
+    padding: 15px 80px 15px 80px;
+    left: 96px;
+    color: #000000;
+    background: #9D9D9D;
+    border-radius: 4px;
+}
+
+.featured-work{
+    padding: 200px 150px;
+}
+
+.featured-work>p {
+    width: 150px;
+    height: 16px;
+    color: #DEDEDE;
+    padding: 0px 0px 0px 0px;
+    opacity: 70%;
+}
+
+.featured-work>img {
+    position: absolute;
+    color: #dedede;
+    height: 32px;
+    width: 25px;
+    padding: 5px 60px;
+    left: 40px;
+}
+
+.enniskillen>img {
+    width: 686px;
+    height: 888px;
+    left: 10px;
+    top: 900px;
+    padding: 0px 20px;
+    
+}
+
+.enniskillen >p{
+    color: #60AB4D;
+    width: 458px;
+    height: 1301px;
+    position: absolute;
+    left: 200px;
+    top: 1696px;
+}
+
+.future-website>img{
+    position: absolute;
+    width: 612px;
+    height: 888px;
+    padding: 0px 1000px;
+    top: 1103px;
+}
+
+.paragraph{
+    position: absolute;
+    color: #ffffff;
+    width: 515px;
+
+}
