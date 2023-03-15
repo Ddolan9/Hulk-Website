@@ -1,6 +1,13 @@
+html{
+    min-width: 350px;
+    max-width: 2500px;
+    min-height: 70vh;
+    max-height: 400vh;
+}
+
 header {
     background-color: rgb(50, 50, 50) ;
-    padding: 0 20%;
+    padding: 0 21%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -8,7 +15,14 @@ header {
 
 header>p{
     display: flex;
+    flex-direction: row;
     padding: 0 78em;
+}
+
+.head {
+    position: fixed;
+    right: 0px;
+    top: 0px;
 }
 
 img {
@@ -21,6 +35,7 @@ ul{
     display: flex;
     padding: 0 150%;
 }
+
 
 li {
     padding: 0 1.5em;
@@ -60,6 +75,9 @@ body{
     padding: 0px 50px;
 }
 
+a:hover{
+    color: #60AB4D;
+}
 
 li>a {
     text-decoration: none;
@@ -108,13 +126,15 @@ li>a {
 }
 
 .enniskillen >p{
-    color: #60AB4D;
-    width: 458px;
-    height: 1301px;
     position: absolute;
-    left: 200px;
+    display: flex;
+    flex-direction: row; 
+    color: #60AB4D;
+    font-size: 36px;
+    left: 120px;
     top: 1696px;
 }
+
 
 .future-website>img{
     position: absolute;
@@ -124,9 +144,18 @@ li>a {
     top: 1103px;
 }
 
-.paragraph{
+.future-website>p{
+    font-size: 27px;
     position: absolute;
     color: #ffffff;
-    width: 515px;
+    left: 1190px;
+    top: 1870px;
+}
 
+.future-website>p:active{
+    position: absolute;
+    color: goldenrod;
+    left: 1100px;
+    top: 1700px;
+    font-size: 35px;
 }
